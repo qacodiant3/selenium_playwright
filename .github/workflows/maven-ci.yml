@@ -24,7 +24,7 @@ jobs:
       run: mvn exec:java -Dexec.mainClass=com.microsoft.playwright.CLI -Dexec.args="install"
 
     - name: Run tests
-      run: mvn clean test
+      run: mvn clean test mvn test -DsuiteXmlFile=testng.xml
 
     - name: Archive Test Reports
       if: always()
