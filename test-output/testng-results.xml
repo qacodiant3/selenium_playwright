@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-25T13:14:27 IST" name="Selenium and Playwright Suite" finished-at="2025-07-25T13:14:34 IST" duration-ms="6890">
+    <groups>
+    </groups>
+    <test started-at="2025-07-25T13:14:27 IST" name="Selenium Tests" finished-at="2025-07-25T13:14:32 IST" duration-ms="5582">
+      <class name="selenium.YahooSearchTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:selenium.YahooSearchTest@139982de]" started-at="2025-07-25T13:14:29 IST" name="setup" finished-at="2025-07-25T13:14:30 IST" duration-ms="726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testYahooSearch()[pri:0, instance:selenium.YahooSearchTest@139982de]" started-at="2025-07-25T13:14:30 IST" name="testYahooSearch" finished-at="2025-07-25T13:14:32 IST" duration-ms="2490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testYahooSearch -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:selenium.YahooSearchTest@139982de]" started-at="2025-07-25T13:14:32 IST" name="teardown" finished-at="2025-07-25T13:14:32 IST" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- selenium.YahooSearchTest -->
+      <class name="selenium.GoogleSearchTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:selenium.GoogleSearchTest@41d477ed]" started-at="2025-07-25T13:14:27 IST" name="setup" finished-at="2025-07-25T13:14:28 IST" duration-ms="1204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testGoogleSearch()[pri:0, instance:selenium.GoogleSearchTest@41d477ed]" started-at="2025-07-25T13:14:28 IST" name="testGoogleSearch" finished-at="2025-07-25T13:14:29 IST" duration-ms="894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoogleSearch -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:selenium.GoogleSearchTest@41d477ed]" started-at="2025-07-25T13:14:29 IST" name="teardown" finished-at="2025-07-25T13:14:29 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- selenium.GoogleSearchTest -->
+    </test> <!-- Selenium Tests -->
+    <test started-at="2025-07-25T13:14:27 IST" name="Playwright Tests" finished-at="2025-07-25T13:14:34 IST" duration-ms="6890">
+      <class name="playwright.BingSearchTest">
+        <test-method signature="testDuckDuckGoSearch()[pri:1, instance:playwright.BingSearchTest@7bedc48a]" started-at="2025-07-25T13:14:31 IST" name="testDuckDuckGoSearch" finished-at="2025-07-25T13:14:33 IST" duration-ms="1181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDuckDuckGoSearch -->
+        <test-method signature="testBingSearch()[pri:2, instance:playwright.BingSearchTest@7bedc48a]" started-at="2025-07-25T13:14:33 IST" name="testBingSearch" finished-at="2025-07-25T13:14:34 IST" duration-ms="1075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBingSearch -->
+      </class> <!-- playwright.BingSearchTest -->
+      <class name="playwright.DuckDuckGoSearchTest">
+        <test-method signature="testDuckDuckGoSearch()[pri:0, instance:playwright.DuckDuckGoSearchTest@131ef10]" started-at="2025-07-25T13:14:27 IST" name="testDuckDuckGoSearch" finished-at="2025-07-25T13:14:31 IST" duration-ms="4598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDuckDuckGoSearch -->
+      </class> <!-- playwright.DuckDuckGoSearchTest -->
+    </test> <!-- Playwright Tests -->
+  </suite> <!-- Selenium and Playwright Suite -->
+</testng-results>
